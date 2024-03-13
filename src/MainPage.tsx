@@ -3,8 +3,8 @@ import Button from "./components/Button";
 
 const MainPage: React.FC = () => {
   return (
-    <div className="flex flex-col items-center pt-6 pl-6 pr-6 bg-peach relative">
-      <div className="text-center">
+    <div className="flex flex-col items-center justify-center bg-peach pt-24 px-6 overflow-hidden font-jost bg-[url('/src/assets/Oval-bg.png')] bg-cover bg-no-repeat ">
+      <div className="text-center ">
         <h3 className="text-4xl font-medium mb-4  leading-9 text-white">
           Award-winning custom designs and digital branding solutions
         </h3>
@@ -19,12 +19,8 @@ const MainPage: React.FC = () => {
         />
       </div>
 
-      <div className="mt-8">
-        <img
-          src="/src/assets/Group 5.png"
-          alt="Frame"
-          className="max-w-xs mx-auto"
-        />
+      <div className="flex justify-center mt-12 -mb-12 z-0 shadow-custom rounded-full">
+        <img src="/src/assets/Group 5.png" alt="Frame" className="max-w-xs" />
       </div>
     </div>
   );
