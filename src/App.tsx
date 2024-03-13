@@ -1,4 +1,5 @@
 import MainPage from "./MainPage";
+import DesignCard from "./components/DesignCard";
 import Navbar from "./components/Navbar/Navbar";
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <>
       <Navbar />
       <MainPage />
+      <DesignCard />
     </>
   );
 }
