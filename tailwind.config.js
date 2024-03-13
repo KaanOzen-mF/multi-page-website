@@ -19,6 +19,10 @@ export default {
     boxShadow: {
       custom: " 0px -40px 80px 0px rgba(93,2,2,0.49)",
     },
+
+    letterSpacing: {
+      designCardSpacing: "5px",
+    },
   },
   plugins: [],
 };
