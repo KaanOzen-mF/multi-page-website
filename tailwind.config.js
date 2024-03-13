@@ -15,6 +15,10 @@ export default {
       darkGrey: "#333136",
       lightGrey: "#f1f3f5",
     },
+
+    boxShadow: {
+      custom: " 0px -40px 80px 0px rgba(93,2,2,0.49)",
+    },
   },
   plugins: [],
 };
