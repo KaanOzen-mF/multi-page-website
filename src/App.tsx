@@ -1,6 +1,7 @@
 import MainPage from "./MainPage";
-import AboutCardContainer from "./components/AboutCardContainer";
+import AboutCardContainer from "./components/AboutCardComponent/AboutCardContainer";
 import DesignCardContainer from "./components/DesignComponent/DesignCardContainer";
+import Footer from "./components/Footer";
 import Navbar from "./components/Navbar/Navbar";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <MainPage />
       <DesignCardContainer />
       <AboutCardContainer />
+      <Footer />
     </>
   );
 }
