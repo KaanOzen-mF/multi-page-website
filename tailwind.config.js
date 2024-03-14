@@ -22,6 +22,7 @@ export default {
 
     letterSpacing: {
       designCardSpacing: "5px",
+      footerCardSpacing: "3px",
     },
   },
   plugins: [],
