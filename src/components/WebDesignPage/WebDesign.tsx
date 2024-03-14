@@ -1,10 +1,14 @@
 import React from "react";
+import DesignPageHeader from "../DesignComponent/DesignPageHeader";
 
 const WebDesign: React.FC = () => {
   return (
-    <div>
-      <h1>Web Design</h1>
-    </div>
+    <>
+      <DesignPageHeader
+        title="Web Design"
+        description="We build websites that serve as powerful marketing tools and bring memorable brand experiences."
+      />
+    </>
   );
 };
 
