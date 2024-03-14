@@ -17,7 +17,7 @@ const GraphicDesign: React.FC = () => {
         title="APP DESIGN"
         backgroundImage="/src/assets/image-app-design.jpg"
         onProjectClick={() => {
-          navigate("/web-design"); // Navigate to web design page
+          navigate("/app-design"); // Navigate to web design page
         }}
       />
       <DesignCard
