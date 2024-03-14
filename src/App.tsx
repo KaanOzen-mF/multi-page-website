@@ -1,18 +1,24 @@
-import MainPage from "./components/MainPage";
-import AboutCardContainer from "./components/AboutCardComponent/AboutCardContainer";
-import DesignCardContainer from "./components/DesignComponent/DesignCardContainer";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar/Navbar";
+import HomePage from "./components/HomePage/HomePage";
+import WebDesign from "./components/WebDesignPage/WebDesign";
+import AppDesign from "./components/AppDesignPage/AppDesign";
+import GraphicDesign from "./components/GraphicDesignPage/GraphicDesign";
 
 function App() {
   return (
-    <>
+    <Router>
       <Navbar />
-      <MainPage />
-      <DesignCardContainer />
-      <AboutCardContainer />
+      <Routes>
+        <Route path="*" element={<h1>Not Found</h1>} />
+        <Route path="/" element={<HomePage />} />
+        <Route path="/web-design" element={<WebDesign />} />
+        <Route path="/app-design" element={<AppDesign />} />
+        <Route path="/graphic-design" element={<GraphicDesign />} />
+      </Routes>
       <Footer />
-    </>
+    </Router>
   );
 }
 
