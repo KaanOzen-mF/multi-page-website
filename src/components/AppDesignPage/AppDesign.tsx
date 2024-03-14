@@ -1,9 +1,13 @@
 import React from "react";
+import DesignPageHeader from "../DesignComponent/DesignPageHeader";
 
 const AppDesign: React.FC = () => {
   return (
     <>
-      <h1>App Design</h1>
+      <DesignPageHeader
+        title="App Design"
+        description="Our mobile designs bring intuitive digital solutions to your customers right at their fingertips."
+      />
     </>
   );
 };
