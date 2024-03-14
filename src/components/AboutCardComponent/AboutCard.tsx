@@ -17,7 +17,9 @@ const AboutCard: React.FC<AboutCardProps> = ({
       <h3 className="text-xl font-medium tracking-designCardSpacing  mb-12">
         {title}
       </h3>
-      <p className="text-center font-normal leading-relaxed">{description}</p>
+      <p className="text-center font-normal leading-relaxed mb-48">
+        {description}
+      </p>
     </div>
   );
 };
