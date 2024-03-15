@@ -5,8 +5,9 @@ import HomePage from "./components/HomePage/HomePage";
 import WebDesign from "./components/WebDesignPage/WebDesign";
 import AppDesign from "./components/AppDesignPage/AppDesign";
 import GraphicDesign from "./components/GraphicDesignPage/GraphicDesign";
-import AboutPage from "./components/AboutPage";
+import AboutPage from "./components/AboutPage/AboutPage";
 import LocationsPage from "./components/LocationPage/LocationsPage";
+import ContactPage from "./components/ContactPage/ContactPage";
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
 
         <Route path="/our-company" element={<AboutPage />} />
         <Route path="/locations" element={<LocationsPage />} />
-        <Route path="/graphic-design" element={<GraphicDesign />} />
+        <Route path="/contact" element={<ContactPage />} />
       </Routes>
       <Footer />
     </Router>
