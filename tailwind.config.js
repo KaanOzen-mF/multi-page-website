@@ -14,6 +14,7 @@ export default {
       lightPeach: "#ffad9b",
       darkGrey: "#333136",
       lightGrey: "#f1f3f5",
+      lightPeachWhite: "#FDF3F0",
     },
 
     boxShadow: {
