@@ -21,7 +21,7 @@ const ContactForm: React.FC = () => {
   };
 
   return (
-    <div className="bg-peach bg-[url('/src/assets/bg-pattern-design-pages-intro-mobile.svg')] font-jost flex flex-col items-center justify-center px-6 pt-12">
+    <div className="bg-peach bg-[url('/src/assets/bg-pattern-design-pages-intro-mobile.svg')] bg-center font-jost flex flex-col items-center justify-center px-6 pt-12">
       <h1 className="font-medium text-2xl text-white leading-9">Contact Us</h1>
       <p className="text-white font-normal leading-7 text-center mt-4">
         Ready to take it to the next level? Let’s talk about your project or
