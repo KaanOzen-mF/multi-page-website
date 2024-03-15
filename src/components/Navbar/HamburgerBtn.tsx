@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
+import { Link } from "react-router-dom";
 
 const HamburgerBtn: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -60,9 +61,15 @@ const HamburgerBtn: React.FC = () => {
             <div className="bg-black text-white p-5 ">
               <nav className="text-2xl font-jost font-normal">
                 <ul>
-                  <li className=" mb-8">OUR COMPANY</li>
-                  <li className=" mb-8">LOCATIONS</li>
-                  <li className="">CONTACT</li>
+                  <li className="mb-8">
+                    <Link to="/our-company">OUR COMPANY</Link>
+                  </li>
+                  <li className="mb-8">
+                    <Link to="/locations">LOCATIONS</Link>
+                  </li>
+                  <li className="">
+                    <Link to="/contact">CONTACT</Link>
+                  </li>
                 </ul>
               </nav>
             </div>
