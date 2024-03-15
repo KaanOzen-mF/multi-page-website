@@ -6,6 +6,7 @@ import WebDesign from "./components/WebDesignPage/WebDesign";
 import AppDesign from "./components/AppDesignPage/AppDesign";
 import GraphicDesign from "./components/GraphicDesignPage/GraphicDesign";
 import AboutPage from "./components/AboutPage";
+import LocationsPage from "./components/LocationPage/LocationsPage";
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
         <Route path="/graphic-design" element={<GraphicDesign />} />
 
         <Route path="/our-company" element={<AboutPage />} />
-        <Route path="/graphic-design" element={<GraphicDesign />} />
+        <Route path="/locations" element={<LocationsPage />} />
         <Route path="/graphic-design" element={<GraphicDesign />} />
       </Routes>
       <Footer />
