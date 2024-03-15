@@ -12,7 +12,10 @@ const LocationMap: React.FC<MapProps> = ({ coordinates, zoomLevel }) => {
 
   useEffect(() => {
     if (mapRef.current) {
-      const map = L.map(mapRef.current).setView(coordinates, zoomLevel);
+      const map = L.map(mapRef.current, { zoomControl: false }).setView(
+        coordinates,
+        zoomLevel
+      );
 
       L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
         maxZoom: 19,
