@@ -9,6 +9,7 @@ export default {
     fontFamily: {
       jost: ["Jost", "sans-serif"],
     },
+
     colors: {
       peach: "#e7816b",
       black: "#1d1c1e",
