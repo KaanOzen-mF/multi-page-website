@@ -57,7 +57,7 @@ const HamburgerBtn: React.FC = () => {
         </button>
 
         {isOpen && (
-          <div className="fixed inset-0 top-[14%] bg-black bg-opacity-60 z-50 ">
+          <div className="fixed inset-0 top-[14%] bg-black bg-opacity-60 z-1000 ">
             <div className="bg-black text-white p-5 ">
               <nav className="text-2xl font-jost font-normal">
                 <ul>
