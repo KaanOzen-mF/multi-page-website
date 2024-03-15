@@ -5,6 +5,7 @@ import HomePage from "./components/HomePage/HomePage";
 import WebDesign from "./components/WebDesignPage/WebDesign";
 import AppDesign from "./components/AppDesignPage/AppDesign";
 import GraphicDesign from "./components/GraphicDesignPage/GraphicDesign";
+import AboutPage from "./components/AboutPage";
 
 function App() {
   return (
@@ -15,6 +16,10 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/web-design" element={<WebDesign />} />
         <Route path="/app-design" element={<AppDesign />} />
+        <Route path="/graphic-design" element={<GraphicDesign />} />
+
+        <Route path="/our-company" element={<AboutPage />} />
+        <Route path="/graphic-design" element={<GraphicDesign />} />
         <Route path="/graphic-design" element={<GraphicDesign />} />
       </Routes>
       <Footer />
