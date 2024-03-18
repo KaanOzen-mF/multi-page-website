@@ -24,6 +24,10 @@ export default {
       custom: " 0px -40px 80px 0px rgba(93,2,2,0.49)",
     },
 
+    backgroundSize: {
+      "200%": "200%",
+    },
+
     letterSpacing: {
       designCardSpacing: "5px",
       footerCardSpacing: "3px",
