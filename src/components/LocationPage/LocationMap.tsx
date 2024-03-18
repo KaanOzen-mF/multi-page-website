@@ -32,7 +32,12 @@ const LocationMap: React.FC<MapProps> = ({ coordinates, zoomLevel }) => {
     }
   }, [coordinates, zoomLevel]); // Only re-run the effect if coordinates or zoom level change
 
-  return <div ref={mapRef} style={{ height: "450px", width: "100%" }} />;
+  return (
+    <div
+      className="md:mb-8 md:mx-6 md:rounded-2xl w-mapWidth h-mapHeight md:mt-12"
+      ref={mapRef}
+    />
+  );
 };
 
 export default LocationMap;
