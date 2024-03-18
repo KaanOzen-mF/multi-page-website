@@ -12,7 +12,7 @@ const LocationContactInfo: React.FC<LocationContactInfoProps> = ({
   contactInfo2,
 }) => {
   return (
-    <div className="mt-6">
+    <div className="mt-6 md:mr-16 md:text-start">
       <p className="font-bold leading-10 capitalize">{contactTitle}</p>
       <p className="font-normal capitalize">{contactInfo1}</p>
       <p className="font-normal">{contactInfo2}</p>
