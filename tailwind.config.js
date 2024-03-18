@@ -28,6 +28,8 @@ export default {
       "200%": "200%",
     },
 
+    height: { aboutHeader2: "480px", mapHeight: "420px" },
+    width: { mapWidth: "94%" },
     letterSpacing: {
       designCardSpacing: "5px",
       footerCardSpacing: "3px",
