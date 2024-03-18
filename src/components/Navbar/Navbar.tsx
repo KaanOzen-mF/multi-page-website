@@ -4,7 +4,7 @@ import NavbarLogo from "./NavbarLogo";
 
 const Navbar: React.FC = () => {
   return (
-    <nav className="flex flex-row justify-between items-center h-24 bg-orange-50 p-2">
+    <nav className="flex flex-row justify-between items-center h-24 bg-orange-50 p-2 md:px-6">
       <NavbarLogo />
       <HamburgerBtn />
     </nav>
