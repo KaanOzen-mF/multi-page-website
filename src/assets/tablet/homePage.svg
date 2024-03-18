@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="a">
+      <stop stop-color="#5D0202" stop-opacity="0" offset="0"/>
+      <stop stop-color="#5D0202" stop-opacity=".498" offset="1"/>
+    </linearGradient>
+  </defs>
+  <g transform="matrix(0.9999999999999999, 0, 0, -0.9999999999999999, 83.37767028808594, 654.8265991210936)" fill="url(#a)" fill-rule="evenodd" opacity=".309">
+    <circle transform="matrix(0, 1, 1, 0, -271.216187, 281.904968)" cx="146" cy="438" r="182.817" style=""/>
+  </g>
+</svg>
