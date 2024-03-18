@@ -8,7 +8,7 @@ interface LocationInfoProps {
 
 const LocationInfo: React.FC<LocationInfoProps> = ({ title, info1, info2 }) => {
   return (
-    <div className="mt-6">
+    <div className="mt-6 md:mr-16 md:text-start">
       <p className="font-bold leading-10 capitalize">{title}</p>
       <p className="font-normal capitalize">{info1}</p>
       <p className="font-normal">{info2}</p>
