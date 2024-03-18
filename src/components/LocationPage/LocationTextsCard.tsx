@@ -23,18 +23,23 @@ const LocationTextsCard: React.FC<LocationTextsCardProps> = ({
   contactInfo2,
 }) => {
   return (
-    <div className="bg-[url('/src/assets/bg-pattern-design-pages-intro-mobile.svg')] bg-lightPeachWhite py-16 px-6 text-center font-jost bg-center">
+    <div
+      className=" bg-[url('/src/assets/bg-pattern-design-pages-intro-mobile.svg')]  bg-center bg-lightPeachWhite
+     py-16 px-6 text-center font-jost md:px-24 md:mx-6 md:rounded-2xl md:text-start md:mb-32"
+    >
       <LocationTitle title={locationTitle} />
-      <LocationInfo
-        title={locationInfoTitle}
-        info1={locationInfo1}
-        info2={locationInfo2}
-      />
-      <LocationContactInfo
-        contactTitle={contactTitle}
-        contactInfo1={contactInfo1}
-        contactInfo2={contactInfo2}
-      />
+      <div className="md:flex">
+        <LocationInfo
+          title={locationInfoTitle}
+          info1={locationInfo1}
+          info2={locationInfo2}
+        />
+        <LocationContactInfo
+          contactTitle={contactTitle}
+          contactInfo1={contactInfo1}
+          contactInfo2={contactInfo2}
+        />
+      </div>
     </div>
   );
 };
