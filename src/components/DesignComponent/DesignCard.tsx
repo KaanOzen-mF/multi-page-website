@@ -24,9 +24,11 @@ const DesignCard: React.FC<DesignCardProps> = ({
       </div>
 
       <div className="relative p-4 flex flex-col items-center justify-center h-full z-10">
-        <p className="text-3xl font-bold text-white">{title}</p>
+        <p className="text-2xl md:text-4xl font-bold md:font-medium tracking-designCardSpacing text-white ">
+          {title}
+        </p>
         <button
-          className="mt-4 flex items-center text-white text-xl font-medium uppercase focus:outline-none"
+          className="mt-4 flex items-center text-white text-l md:text-xl md:tracking-designCardSpacing font-medium uppercase focus:outline-none"
           onClick={onProjectClick}
         >
           VIEW PROJECT
