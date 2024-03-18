@@ -9,11 +9,14 @@ interface CountryCardsProps {
 const CountryCards: React.FC<CountryCardsProps> = ({ country, image }) => {
   return (
     <div className="font-jost flex flex-col justify-center items-center mt-32 pb-8">
-      <img className="mb-8" src={`/src/assets/${image}`} alt="" />
-      <p className="uppercase tracking-designCardSpacing leading-relaxed text-xl mb-8">
+      <img className="mb-8 w-6/12" src={`/src/assets/${image}`} alt="" />
+      <p className="uppercase tracking-designCardSpacing leading-relaxed text-xl mb-8 md:text-2xl">
         {country}
       </p>
-      <Button children="See Location" className="bg-peach text-white " />
+      <Button
+        children="See Location"
+        className="bg-peach text-white md:text-xl uppercase"
+      />
     </div>
   );
 };
