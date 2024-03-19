@@ -12,6 +12,7 @@ interface LocationCardProps {
   contactTitle: string;
   contactInfo1: string;
   contactInfo2: string;
+  index: number;
 }
 const LocationCard: React.FC<LocationCardProps> = ({
   coordinates,
@@ -23,9 +24,16 @@ const LocationCard: React.FC<LocationCardProps> = ({
   contactTitle,
   contactInfo1,
   contactInfo2,
+  index,
 }) => {
   return (
-    <div className="mb-12">
+    <div
+      className={`mb-12 lg:px-44 lg:flex lg:items-center lg:mt-4 lg:space-x-4 ${
+        index % 2 === 1
+          ? "lg:flex-row-reverse lg:space-x-reverse"
+          : "lg:flex-row"
+      }`}
+    >
       <LocationMap coordinates={coordinates} zoomLevel={zoomLevel} />
       <LocationTextsCard
         locationTitle={locationTitle}
