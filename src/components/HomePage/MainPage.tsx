@@ -7,9 +7,9 @@ const MainPage: React.FC = () => {
       className="flex flex-col items-center justify-center bg-peach pt-24 px-6 overflow-hidden font-jost bg-cover bg-no-repeat 
       bg-[url('/src/assets/Oval-bg.png')] 
       md:bg-[url('/src/assets/tablet/homePage.svg')] md:bg-right md:bg-no-repeat md:bg-contain md:m-6 md:rounded-3xl 
-      lg:bg-[url('/src/assets/desktop/homePAge.svg')]"
+      lg:bg-[url('/src/assets/desktop/homePAge.svg')] lg:mx-48 lg:flex-row"
     >
-      <div className="text-center md:p-6 md:px-16">
+      <div className="text-center md:p-6 md:px-16 lg:w-1/2">
         <h3
           className="text-4xl font-medium mb-4  leading-9 text-white
           md:text-5xl md:leading-10 md:mb-6"
