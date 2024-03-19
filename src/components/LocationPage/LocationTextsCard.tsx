@@ -25,7 +25,7 @@ const LocationTextsCard: React.FC<LocationTextsCardProps> = ({
   return (
     <div
       className=" bg-[url('/src/assets/bg-pattern-design-pages-intro-mobile.svg')]  bg-center bg-lightPeachWhite
-     py-16 px-6 text-center font-jost md:px-24 md:mx-6 md:rounded-2xl md:text-start md:mb-32"
+     py-16 px-6 text-center font-jost md:px-24 md:mx-6 md:rounded-2xl md:text-start md:mb-32 lg:h-mapHeight lg:m-0 lg:w-mapWidth lg:px-64 lg:py-36 "
     >
       <LocationTitle title={locationTitle} />
       <div className="md:flex">
