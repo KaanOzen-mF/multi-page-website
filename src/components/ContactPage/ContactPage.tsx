@@ -6,9 +6,11 @@ const ContactPage: React.FC = () => {
   return (
     <>
       <ContactForm />
-      <CountryCards country="canada" image="canada.svg" />
-      <CountryCards country="australia" image="australia.svg" />
-      <CountryCards country="united Kingdom" image="unitedKingdom.svg" />
+      <div className="flex flex-col lg:flex-row lg:justify-between lg:mx-96">
+        <CountryCards country="canada" image="canada.svg" />
+        <CountryCards country="australia" image="australia.svg" />
+        <CountryCards country="united Kingdom" image="unitedKingdom.svg" />
+      </div>
     </>
   );
 };
