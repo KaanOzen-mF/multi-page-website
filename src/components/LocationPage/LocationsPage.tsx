@@ -15,6 +15,7 @@ const LocationsPage: React.FC = () => {
         contactTitle="Contact"
         contactInfo1="P : +1 253-863-8967"
         contactInfo2="M : contact@designo.co"
+        index={1}
       />
       <LocationCard
         coordinates={[-30.329305870226793, 149.7882077103273]}
@@ -26,6 +27,7 @@ const LocationsPage: React.FC = () => {
         contactTitle="Contact"
         contactInfo1="P : (02) 6720 9092"
         contactInfo2="M : contact@designo.au"
+        index={2}
       />
       <LocationCard
         coordinates={[51.73276183232242, -3.8618141088743254]}
@@ -37,6 +39,7 @@ const LocationsPage: React.FC = () => {
         contactTitle="Contact"
         contactInfo1="P : 078 3115 1400"
         contactInfo2="M : contact@designo.uk"
+        index={3}
       />
     </>
   );
