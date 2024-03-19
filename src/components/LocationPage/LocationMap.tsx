@@ -34,7 +34,7 @@ const LocationMap: React.FC<MapProps> = ({ coordinates, zoomLevel }) => {
 
   return (
     <div
-      className="md:mb-8 md:mx-6 md:rounded-2xl w-mapWidth h-mapHeight md:mt-12"
+      className="mx-0 w-full md:mb-8 md:mx-6 md:rounded-2xl md:mt-12 md:w-mapWidth lg:w-mapLgWidth h-mapHeight lg:m-0 lg:justify-between"
       ref={mapRef}
     />
   );
