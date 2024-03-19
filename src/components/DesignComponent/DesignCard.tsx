@@ -13,12 +13,12 @@ const DesignCard: React.FC<DesignCardProps> = ({
   onProjectClick,
 }) => {
   return (
-    <div className="group relative m-6 rounded-lg shadow-lg h-64 overflow-hidden font-jost">
+    <div className="group relative m-6 rounded-lg shadow-lg h-64 overflow-hidden font-jost md:mb-16 md:py-12">
       <div className="absolute inset-0 w-full h-full">
         <img
           src={backgroundImage}
           alt=""
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover md:object-cover"
         />
         <div className="absolute inset-0 bg-black opacity-50 group-hover:opacity-60 transition-opacity"></div>
       </div>
@@ -32,7 +32,7 @@ const DesignCard: React.FC<DesignCardProps> = ({
           onClick={onProjectClick}
         >
           VIEW PROJECT
-          <MdKeyboardArrowRight className="text-peach text-lg ml-2" />
+          <MdKeyboardArrowRight className="text-peach text-lg ml-2 md:text-2xl" />
         </button>
       </div>
     </div>
