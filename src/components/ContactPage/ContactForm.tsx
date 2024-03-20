@@ -47,7 +47,7 @@ const ContactForm: React.FC = () => {
           value={formData.name}
           onChange={handleChange}
           placeholder="Name"
-          className="w-full bg-peach border-b border-white placeholder-white px-3 py-5"
+          className="w-full bg-transparent border-b border-white placeholder-white px-3 py-5 focus:border-b-2 focus:border-white focus:outline-none focus:font-medium"
         />
         <input
           type="email"
@@ -56,7 +56,7 @@ const ContactForm: React.FC = () => {
           value={formData.email}
           onChange={handleChange}
           placeholder="Email Address"
-          className="w-full bg-peach border-b border-white px-3 py-5  placeholder-white"
+          className="w-full bg-transparent border-b border-white px-3 py-5  placeholder-white focus:border-b-2 focus:border-white focus:outline-none focus:font-medium"
         />
         <input
           type="phone"
@@ -65,7 +65,7 @@ const ContactForm: React.FC = () => {
           value={formData.phone}
           onChange={handleChange}
           placeholder="Phone"
-          className="w-full bg-peach border-b border-white px-3 py-5  placeholder-white"
+          className="w-full bg-transparent border-b border-white px-3 py-5  placeholder-white focus:border-b-2 focus:border-white focus:outline-none focus:font-medium"
         />
         <textarea
           id="message"
@@ -73,7 +73,7 @@ const ContactForm: React.FC = () => {
           value={formData.message}
           onChange={handleChange}
           placeholder="Your Message"
-          className="w-full bg-peach border-b border-white px-3 py-5  placeholder-white"
+          className="w-full bg-transparent border-b border-white px-3 py-5  placeholder-white focus:border-b-2 focus:border-white focus:outline-none focus:font-medium"
         />
         <Button
           children={"Submit"}
