@@ -3,7 +3,7 @@ import AboutCard from "../AboutCardComponent/AboutCard";
 
 const AboutCardContainer: React.FC = () => {
   return (
-    <div>
+    <div className="lg:flex lg:flex-row lg:px-40">
       <AboutCard
         title="PASSIONATE"
         description="Each project starts with an in-depth brand research to ensure we only create products that serve a purpose. We merge art, design, and technology into exciting new solutions."
