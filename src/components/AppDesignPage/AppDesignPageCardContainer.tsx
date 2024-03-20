@@ -3,7 +3,7 @@ import DesignPageCard from "../DesignComponent/DesignPageCard";
 
 const AppDesignPageCardContainer: React.FC = () => {
   return (
-    <>
+    <div className="lg:grid lg:grid-cols-3 lg:gap-4 lg:mx-40">
       <DesignPageCard
         img="/src/assets/appDesign/image-airfilter.jpg"
         title="airfilter"
@@ -29,7 +29,7 @@ const AppDesignPageCardContainer: React.FC = () => {
         title="loopstudios"
         description="A VR experience app made for Loopstudios"
       />
-    </>
+    </div>
   );
 };
 
