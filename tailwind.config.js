@@ -18,6 +18,7 @@ export default {
       darkGrey: "#333136",
       lightGrey: "#f1f3f5",
       lightPeachWhite: "#FDF3F0",
+      transparent: "transparent",
     },
 
     boxShadow: {
