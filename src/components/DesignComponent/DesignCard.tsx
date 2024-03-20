@@ -16,14 +16,15 @@ const DesignCard: React.FC<DesignCardProps> = ({
 }) => {
   return (
     <div
-      className={`group relative m-6 rounded-lg shadow-lg h-64 overflow-hidden font-jost md:mb-16 md:py-12 ${className} hover:bg-peach`}
+      className={`group relative m-6 rounded-lg shadow-lg h-64 overflow-hidden font-jost md:mb-16 md:py-12 ${className} hover:bg-peach flex justify-center items-center`}
+      style={{
+        backgroundImage: `url(${backgroundImage})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+      }}
     >
       <div className="absolute inset-0 w-full h-full">
-        <img
-          src={backgroundImage}
-          alt=""
-          className="w-full h-full object-cover md:object-cover lg:object-fill"
-        />
         <div className="absolute inset-0 bg-black opacity-50 group-hover:opacity-60 transition-opacity group-hover:bg-peach"></div>
       </div>
 
