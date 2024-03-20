@@ -29,13 +29,14 @@ export default {
       "200%": "200%",
     },
 
-    height: { aboutHeader2: "480px", mapHeight: "420px" },
+    height: { aboutHeader2: "480px", mapHeight: "420px", hamburgerBtnH: "2px" },
     width: {
       mapWidth: "94%",
       mapLgWidth: "30%",
       half: "50%",
       upperQuarter: "75%",
       cardWitch: "85%",
+      hamburgerBtnW: "16px",
     },
     letterSpacing: {
       designCardSpacing: "5px",
