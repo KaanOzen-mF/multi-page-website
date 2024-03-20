@@ -29,7 +29,13 @@ export default {
     },
 
     height: { aboutHeader2: "480px", mapHeight: "420px" },
-    width: { mapWidth: "94%", mapLgWidth: "30%", half: "50%" },
+    width: {
+      mapWidth: "94%",
+      mapLgWidth: "30%",
+      half: "50%",
+      upperQuarter: "75%",
+      cardWitch: "85%",
+    },
     letterSpacing: {
       designCardSpacing: "5px",
       footerCardSpacing: "3px",
