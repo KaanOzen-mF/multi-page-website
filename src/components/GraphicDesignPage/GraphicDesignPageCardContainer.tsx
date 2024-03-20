@@ -3,7 +3,7 @@ import DesignPageCard from "../DesignComponent/DesignPageCard";
 
 const GraphicDesignPageCardContainer: React.FC = () => {
   return (
-    <div>
+    <div className="lg:grid lg:grid-cols-3 lg:gap-4 lg:mx-40">
       <DesignPageCard
         img="/src/assets/graphicDesign/image-change.jpg"
         title="TIM BROWN"
