@@ -3,7 +3,7 @@ import DesignPageCard from "../DesignComponent/DesignPageCard";
 
 const WebDesignPageCardContainer: React.FC = () => {
   return (
-    <>
+    <div className="lg:grid lg:grid-cols-3 lg:gap-4 lg:mx-40">
       <DesignPageCard
         img="/src/assets/Express.png"
         title="Exspress"
@@ -34,7 +34,7 @@ const WebDesignPageCardContainer: React.FC = () => {
         title="camp"
         description="Get expert training in coding, data, design, and digital marketing"
       />
-    </>
+    </div>
   );
 };
 
