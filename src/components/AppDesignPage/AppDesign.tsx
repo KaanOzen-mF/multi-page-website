@@ -13,20 +13,25 @@ const AppDesign: React.FC = () => {
         description="Our mobile designs bring intuitive digital solutions to your customers right at their fingertips."
       />
       <AppDesignPageCardContainer />
-      <DesignCard
-        title="WEB DESIGN"
-        backgroundImage="/src/assets/image-app-design.jpg"
-        onProjectClick={() => {
-          navigate("/web-design"); // Navigate to web design page
-        }}
-      />
-      <DesignCard
-        title="GRAPHIC DESIGN"
-        backgroundImage="/src/assets/image-web-design.jpg"
-        onProjectClick={() => {
-          navigate("/graphic-design"); // Navigate to graphic design page
-        }}
-      />
+
+      <div className="lg:flex lg:flex-row lg:mx-40 lg:w-full">
+        <DesignCard
+          title="GRAPHIC DESIGN"
+          backgroundImage="/src/assets/image-web-design.jpg"
+          onProjectClick={() => {
+            navigate("/graphic-design"); // Navigate to graphic design page
+          }}
+          className="lg:w-half"
+        />
+        <DesignCard
+          title="WEB DESIGN"
+          backgroundImage="/src/assets/image-web-design.jpg"
+          onProjectClick={() => {
+            navigate("/web-design"); // Navigate to web design page
+          }}
+          className="lg:w-half"
+        />
+      </div>
     </>
   );
 };
