@@ -13,20 +13,24 @@ const GraphicDesign: React.FC = () => {
         description="We deliver eye-catching branding materials that are tailored to meet your business objectives."
       />
       <GraphicDesignPageCardContainer />
-      <DesignCard
-        title="APP DESIGN"
-        backgroundImage="/src/assets/image-app-design.jpg"
-        onProjectClick={() => {
-          navigate("/app-design"); // Navigate to web design page
-        }}
-      />
-      <DesignCard
-        title="WEB DESIGN"
-        backgroundImage="/src/assets/image-web-design.jpg"
-        onProjectClick={() => {
-          navigate("/web-design"); // Navigate to web design page
-        }}
-      />
+      <div className="lg:flex lg:flex-row lg:mx-40 lg:w-full">
+        <DesignCard
+          title="APP DESIGN"
+          backgroundImage="/src/assets/image-app-design.jpg"
+          onProjectClick={() => {
+            navigate("/app-design"); // Navigate to app design page
+          }}
+          className="lg:w-half"
+        />
+        <DesignCard
+          title="WEB DESIGN"
+          backgroundImage="/src/assets/image-web-design.jpg"
+          onProjectClick={() => {
+            navigate("/web-design"); // Navigate to web design page
+          }}
+          className="lg:w-half"
+        />
+      </div>
     </div>
   );
 };
