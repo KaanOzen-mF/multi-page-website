@@ -16,14 +16,13 @@ const DesignPageCard: React.FC<DesignPageCardProps> = ({
   return (
     // Container for the card with responsive and aesthetic design tailoring for small to large devices.
     <div
-      className="font-jost m-6 sm:rounded-b-xl sm:rounded-t-xl 
-      md:rounded-l-xl md:rounded-r-xl md:flex md:items-center md:justify-center 
-      bg-lightPeachWhite 
+      className="font-jost m-6 sm:rounded-b-xl sm:rounded-t-xl  bg-lightPeachWhite 
+      md:rounded-l-xl md:rounded-r-xl md:flex md:items-center md:justify-center
       lg:flex lg:flex-col lg:bg-white lg:w-upperQuarter lg:rounded-xl shadow-md transition duration-300 ease-in-out"
     >
       {/* The image for the card. It takes full width and has responsive rounding applied for different viewports. */}
       <img
-        className="sm:rounded-t-xl md:rounded-l-xl lg:rounded-t-xl lg:rounded-b-none w-full md:w-1/2 lg:w-full"
+        className="sm:rounded-t-xl md:rounded-l-xl lg:rounded-t-xl lg:rounded-b-none w-full md:w-half lg:w-full"
         src={img}
         alt={title}
       />
