@@ -12,8 +12,10 @@ const GraphicDesign: React.FC = () => {
         title="Graphic Design"
         description="We deliver eye-catching branding materials that are tailored to meet your business objectives."
       />
+
       <GraphicDesignPageCardContainer />
-      <div className="lg:flex lg:flex-row lg:mx-40 lg:w-full">
+
+      <div className="lg:flex lg:flex-row lg:mx-40 lg:w-full lg:mt-24">
         <DesignCard
           title="APP DESIGN"
           backgroundImage="/src/assets/image-app-design.jpg"
