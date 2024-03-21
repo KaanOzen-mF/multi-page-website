@@ -29,7 +29,12 @@ export default {
       "200%": "200%",
     },
 
-    height: { aboutHeader2: "480px", mapHeight: "420px", hamburgerBtnH: "2px" },
+    height: {
+      aboutHeader2: "480px",
+      mapHeight: "420px",
+      hamburgerBtnH: "2px",
+      aboutHeader2Sm: "375px",
+    },
     width: {
       mapWidth: "94%",
       mapLgWidth: "30%",
