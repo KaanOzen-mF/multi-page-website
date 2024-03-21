@@ -7,6 +7,7 @@ import {
   FaYoutube,
 } from "react-icons/fa";
 import Button from "./Button";
+import { Link } from "react-router-dom";
 
 const Footer: React.FC = () => {
   return (
@@ -44,9 +45,15 @@ const Footer: React.FC = () => {
         <div className="w-full bg-white bg-opacity-10 h-px my-8 md:hidden" />
 
         <ul className="flex flex-col md:flex-row items-center mb-12 md:mb-0 ">
-          <li className="mb-4 md:mb-0">OUR COMPANY</li>
-          <li className="mb-4 md:mb-0 md:ml-12">LOCATION</li>
-          <li className="mb-4 md:mb-0 md:ml-12">CONTACT</li>
+          <li className="mb-4 md:mb-0">
+            <Link to="/our-company">OUR COMPANY</Link>
+          </li>
+          <li className="mb-4 md:mb-0 md:ml-12">
+            <Link to="/locations">LOCATIONS</Link>
+          </li>
+          <li className="mb-4 md:mb-0 md:ml-12">
+            <Link to="/contact">CONTACT</Link>
+          </li>
         </ul>
       </div>
 
