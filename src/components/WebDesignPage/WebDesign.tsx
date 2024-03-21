@@ -13,7 +13,7 @@ const WebDesign: React.FC = () => {
         description="We build websites that serve as powerful marketing tools and bring memorable brand experiences."
       />
       <WebDesignPageCardContainer />
-      <div className="lg:flex lg:flex-row lg:mx-40 lg:w-full">
+      <div className="lg:flex lg:flex-row lg:mx-40 lg:w-full lg:mt-24">
         <DesignCard
           title="APP DESIGN"
           backgroundImage="/src/assets/image-app-design.jpg"
