@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 
 const Footer: React.FC = () => {
   return (
-    <footer className="flex flex-col bg-black font-jost text-white px-6 py-12 mt-48 lg:pl-40 lg:pr-16">
+    <footer className="flex flex-col bg-black font-jost text-white px-6 py-12 mt-48 lg:pl-40 lg:pr-24">
       <div
         className="flex flex-col items-center justify-center p-12 md:p-12 rounded-xl bg-peach  max-w-lg md:max-w-full w-full text-center -mt-48 mb-6 
       md:bg-[url('/src/assets/tablet/bg-pattern-design-pages-intro-tablet.svg')] md:bg-right lg:w-mapWidth lg:flex-row lg:justify-between"
