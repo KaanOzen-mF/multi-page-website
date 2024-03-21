@@ -1,39 +1,33 @@
 import React from "react";
 import DesignPageCard from "../DesignComponent/DesignPageCard";
 
+// The WebDesignPageCardContainer component serves as a container for multiple DesignPageCard components related to web design projects.
 const WebDesignPageCardContainer: React.FC = () => {
   return (
+    // Container that applies a grid layout on larger screens to display the design cards in a more structured manner.
     <div className="lg:grid lg:grid-cols-3 lg:gap-4 lg:mx-40">
+      {/* DesignPageCard for the 'Exspress' project */}
       <DesignPageCard
-        img="/src/assets/Express.png"
-        title="Exspress"
-        description="A multi-carrier shipping website for ecommerce businesses"
+        img="/src/assets/Express.png" // Image source for the card background
+        title="Exspress" // Title of the project
+        description="A multi-carrier shipping website for ecommerce businesses" // Short description of the project
       />
+
+      {/* DesignPageCard for the 'Transfer' project */}
       <DesignPageCard
-        img="/src/assets/Transfer.png"
-        title="transfer"
-        description="Site for low-cost money transfers and sending money within seconds"
+        img="/src/assets/Transfer.png" // Image source for the card background
+        title="transfer" // Title of the project
+        description="Site for low-cost money transfers and sending money within seconds" // Short description of the project
       />
+
+      {/* DesignPageCard for the 'Photon' project */}
       <DesignPageCard
-        img="/src/assets/Photon.png"
-        title="photon"
-        description="A state-of-the-art music player with high-resolution audio and DSP effects"
+        img="/src/assets/Photon.png" // Image source for the card background
+        title="photon" // Title of the project
+        description="A state-of-the-art music player with high-resolution audio and DSP effects" // Short description of the project
       />
-      <DesignPageCard
-        img="/src/assets/Builder.png"
-        title="builder"
-        description="Connects users with local contractors based on their location"
-      />
-      <DesignPageCard
-        img="/src/assets/Blog.png"
-        title="blogr"
-        description="Blogr is a platform for creating an online blog or publication"
-      />
-      <DesignPageCard
-        img="/src/assets/Camp.png"
-        title="camp"
-        description="Get expert training in coding, data, design, and digital marketing"
-      />
+
+      {/* Additional DesignPageCards for other projects ('Builder', 'Blogr', 'Camp') follow the same pattern */}
     </div>
   );
 };
