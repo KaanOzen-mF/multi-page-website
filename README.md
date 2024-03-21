@@ -32,6 +32,10 @@ Users should be able to:
 ### Screenshot
 
 ![DesktopHomePage](image.png)
+![DesktopOurComponayPage](image-1.png)
+![DesktopLocationPage](image-2.png)
+![DesktopContactPage](image-3.png)
+![DesktopDesignPage](image-4.png)
 
 ### Links
 
