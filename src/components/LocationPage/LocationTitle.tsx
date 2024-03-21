@@ -10,7 +10,8 @@ const LocationTitle: React.FC<LocationTitleProps> = ({ title }) => {
   return (
     // The title element styled to match the design specifications
     <h2 className="font-medium text-3xl md:text-4xl text-peach uppercase self-start">
-      {title} // Display the title passed as a prop
+      {/* Display the title passed as a prop */}
+      {title}
     </h2>
   );
 };
