@@ -14,7 +14,7 @@ const AppDesign: React.FC = () => {
       />
       <AppDesignPageCardContainer />
 
-      <div className="lg:flex lg:flex-row lg:mx-40 lg:w-full">
+      <div className="lg:flex lg:flex-row lg:mx-40 lg:w-full lg:mt-24">
         <DesignCard
           title="GRAPHIC DESIGN"
           backgroundImage="/src/assets/image-web-design.jpg"
