@@ -4,7 +4,7 @@ import { useNavigate } from "react-router";
 const NavbarLogo: React.FC = () => {
   const navigate = useNavigate();
   return (
-    <div className="flex">
+    <div className="flex cursor-pointer">
       <div
         className="flex"
         onClick={() => {
