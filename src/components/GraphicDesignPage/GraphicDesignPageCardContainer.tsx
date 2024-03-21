@@ -3,7 +3,7 @@ import DesignPageCard from "../DesignComponent/DesignPageCard";
 
 const GraphicDesignPageCardContainer: React.FC = () => {
   return (
-    <div className="lg:grid lg:grid-cols-3 lg:gap-4 lg:mx-40">
+    <div className="lg:grid lg:grid-cols-3 lg:gap-4 lg:ml-40 lg:mr-20">
       <DesignPageCard
         img="/src/assets/graphicDesign/image-change.jpg"
         title="TIM BROWN"
@@ -12,8 +12,8 @@ const GraphicDesignPageCardContainer: React.FC = () => {
       />
 
       <DesignPageCard
-        img="/src/assets/image-boxed-water.jpg"
-        title="boxed water"
+        img="/src/assets/graphicDesign/image-boxed-water.jpg"
+        title="Boxed Water"
         description="A simple packaging concept made for Boxed Water"
       />
       <DesignPageCard
