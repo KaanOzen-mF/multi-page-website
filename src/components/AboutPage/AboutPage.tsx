@@ -4,13 +4,13 @@ import CountryCards from "../CountryCards";
 const AboutPage: React.FC = () => {
   return (
     <div>
-      <div className="md:mx-6 md:mt-10 lg:flex lg:flex-row-reverse lg:px-44">
+      <div className="md:mx-6 md:mt-10 lg:flex lg:flex-row-reverse lg:px-44 lg:mb-48">
         <img
           src="/src/assets/about-header.png"
-          className="rounded-t-xl w-mapLgWidth lg:rounded-r-lg lg:rounded-t-none"
+          className="md:rounded-t-x w-half lg:h-aboutHeader2Sm lg:rounded-r-lg"
         />
         <div
-          className="bg-[url('/src/assets/bg-pattern-design-pages-intro-mobile.svg')] bg-peach bg-right flex flex-col py-16 px-6 text-center font-jost rounded-b-xl
+          className="bg-[url('/src/assets/bg-pattern-design-pages-intro-mobile.svg')] bg-peach bg-right flex flex-col py-16 px-6 text-center font-jost
         lg:bg-[url('/src/assets/about/bg-pattern-hero-about-desktop.svg')] lg:rounded-b-none lg:rounded-l-lg lg:w-4/12
         "
         >
@@ -27,9 +27,9 @@ const AboutPage: React.FC = () => {
         </div>
       </div>
 
-      <div className="md:mx-6 md:mt-16 mt-8 lg:flex lg:px-44">
+      <div className="md:mx-6 md:mt-16 lg:flex lg:px-44">
         <img
-          className="md:h-aboutHeader2 rounded-t-xl lg:w-half lg:rounded-t-none lg:rounded-l-lg"
+          className="md:h-aboutHeader2 h-aboutHeader2Sm lg:w-half lg:rounded-t-none lg:rounded-l-lg"
           src="/src/assets/tablet/image-world-class-talent.jpg"
           alt=""
         />
@@ -64,7 +64,7 @@ const AboutPage: React.FC = () => {
 
       <div className="md:mx-6 md:mt-16 mt-8 lg:flex lg:flex-row-reverse lg:px-44">
         <img
-          className="md:h-aboutHeader2 lg:w-half lg:rounded-r-lg"
+          className="lg:w-half lg:rounded-r-lg lg:h-aboutHeader2Sm"
           src="/src/assets/about-header-3.png"
           alt=""
         />
