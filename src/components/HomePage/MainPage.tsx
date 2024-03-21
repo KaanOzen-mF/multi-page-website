@@ -7,9 +7,9 @@ const MainPage: React.FC = () => {
     // Main container for the MainPage content with background styling and layout adjustments for different screen sizes.
     <div
       className="flex flex-col items-center justify-center bg-peach pt-24 px-6 overflow-hidden font-jost bg-cover bg-no-repeat 
-      bg-[url('/src/assets/Oval-bg.png')] 
-      md:bg-[url('/src/assets/tablet/homePage.svg')] md:bg-right md:bg-no-repeat md:bg-contain md:m-6 md:rounded-3xl 
-      lg:bg-[url('/src/assets/desktop/homePAge.svg')] lg:mx-48 lg:flex-row"
+      bg-[url('/public/Oval-bg.png')] 
+      md:bg-[url('/public/homePage.svg')] md:bg-right md:bg-no-repeat md:bg-contain md:m-6 md:rounded-3xl 
+      lg:bg-[url('/public/homePage.svg')] lg:mx-48 lg:flex-row"
     >
       {/* Text content container with responsive padding and width adjustments. */}
       <div className="text-center md:p-6 md:px-16 lg:w-1/2">
@@ -36,7 +36,7 @@ const MainPage: React.FC = () => {
 
       {/* Container for the main feature image with custom shadow and responsive positioning. */}
       <div className="flex justify-center mt-12 -mb-12 z-0 shadow-custom rounded-full">
-        <img src="/src/assets/Group 5.png" alt="Frame" className="max-w-xs" />
+        <img src="/public/Group 5.png" alt="Frame" className="max-w-xs" />
       </div>
     </div>
   );

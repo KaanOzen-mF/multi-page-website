@@ -24,7 +24,7 @@ const WebDesign: React.FC = () => {
         {/* DesignCard for App Design. Clicking this card navigates to the App Design page */}
         <DesignCard
           title="APP DESIGN"
-          backgroundImage="/src/assets/image-app-design.jpg" // Background image for the card
+          backgroundImage="/public/design/image-app-design.jpg" // Background image for the card
           onProjectClick={() => {
             navigate("/app-design"); // Function to navigate to the app design page
           }}
@@ -34,7 +34,7 @@ const WebDesign: React.FC = () => {
         {/* DesignCard for Graphic Design. Clicking this card navigates to the Graphic Design page */}
         <DesignCard
           title="GRAPHIC DESIGN"
-          backgroundImage="/src/assets/image-graphic-design.jpg" // Background image for the card
+          backgroundImage="/public/design/image-graphic-design.jpg" // Background image for the card
           onProjectClick={() => {
             navigate("/graphic-design"); // Function to navigate to the graphic design page
           }}

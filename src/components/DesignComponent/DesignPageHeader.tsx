@@ -15,8 +15,8 @@ const DesignPageHeader: React.FC<DesignPageHeaderProps> = ({
   return (
     // The main container for the header with responsive background images and styling
     <div
-      className="flex flex-col justify-center p-6 shadow-md h-80 text-center font-jost bg-[url('/src/assets/bg-pattern-design-pages-intro-mobile.svg')] bg-right-top bg-peach
-      md:bg-[url('/src/assets/tablet/bg-pattern-design-pages-intro-tablet.svg')] md:bg-right-top md:p-24
+      className="flex flex-col justify-center p-6 shadow-md h-80 text-center font-jost bg-[url('/public/bg/bg-pattern-design-pages-intro-mobile.svg')] bg-right-top bg-peach
+      md:bg-[url('/public/bg/bg-pattern-design-pages-intro-tablet.svg')] md:bg-right-top md:p-24
       lg:mx-48 lg:mt-6 lg:rounded-2xl lg:mb-24"
     >
       {/* The title of the header, responsive with different font sizes for different screen sizes */}

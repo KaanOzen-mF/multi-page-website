@@ -14,7 +14,7 @@ const Footer: React.FC = () => {
     <footer className="flex flex-col bg-black font-jost text-white px-6 py-12 mt-48 lg:pl-40 lg:pr-24">
       <div
         className="flex flex-col items-center justify-center p-12 md:p-12 rounded-xl bg-peach  max-w-lg md:max-w-full w-full text-center -mt-48 mb-6 
-      md:bg-[url('/src/assets/tablet/bg-pattern-design-pages-intro-tablet.svg')] md:bg-right lg:w-mapWidth lg:flex-row lg:justify-between"
+      md:bg-[url('/public/bg/bg-pattern-design-pages-intro-tablet.svg')] md:bg-right lg:w-mapWidth lg:flex-row lg:justify-between"
       >
         <div className="lg:flex lg:flex-col lg:text-start">
           <h3 className="text-4xl font-medium leading-tight mb-6">
@@ -37,7 +37,7 @@ const Footer: React.FC = () => {
       <div className="flex flex-col items-center md:flex-row md:justify-between w-full md:items-center lg:justify-between lg:w-mapWidth">
         <div className="mt-8 mb-6">
           <div className="flex items-center space-x-2">
-            <img src="/src/assets/Oval.png" alt="" className="w-8 h-8" />
+            <img src="/public/logo/Oval.png" alt="" className="w-8 h-8" />
             <p className="text-2xl font-bold tracking-widest">DESIGNO</p>
           </div>
         </div>

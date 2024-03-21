@@ -14,7 +14,7 @@ const Design: React.FC = () => {
         {/* DesignCard for Web Design. Occupies full width on larger screens and grows within the flex container. */}
         <DesignCard
           title="WEB DESIGN"
-          backgroundImage="/src/assets/home/image-web-design-large.jpg" // Background image for the card
+          backgroundImage="/public/design/image-web-design-large.jpg" // Background image for the card
           onProjectClick={() => navigate("/web-design")} // Navigation function to the web design page on click
           className="lg:w-full lg:flex-grow"
         />
@@ -24,7 +24,7 @@ const Design: React.FC = () => {
           {/* DesignCard for App Design. Occupies the full width and height of its container on larger screens. */}
           <DesignCard
             title="APP DESIGN"
-            backgroundImage="/src/assets/image-app-design.jpg" // Background image for the card
+            backgroundImage="/public/design/image-app-design.jpg" // Background image for the card
             onProjectClick={() => navigate("/app-design")} // Navigation function to the app design page on click
             className="lg:w-full lg:h-full"
           />
@@ -32,7 +32,7 @@ const Design: React.FC = () => {
           {/* DesignCard for Graphic Design. Occupies the full width and height of its container on larger screens. */}
           <DesignCard
             title="GRAPHIC DESIGN"
-            backgroundImage="/src/assets/image-graphic-design.jpg" // Background image for the card
+            backgroundImage="/public/design/image-graphic-design.jpg" // Background image for the card
             onProjectClick={() => navigate("/graphic-design")} // Navigation function to the graphic design page on click
             className="lg:w-full lg:h-full"
           />

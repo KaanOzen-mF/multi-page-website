@@ -9,13 +9,13 @@ const AboutPage: React.FC = () => {
       <div className="md:mx-6 md:mt-10 lg:flex lg:flex-row-reverse lg:px-44 lg:mb-48">
         {/* Hero image with responsive design adjustments for medium and large screens */}
         <img
-          src="/src/assets/about-header.png"
+          src="/public/about/about-header.png"
           className="md:rounded-t-x w-half lg:h-aboutHeader2Sm lg:rounded-r-lg"
         />
         {/* Overlay text area with background pattern, adjusted for large screens */}
         <div
-          className="bg-[url('/src/assets/bg-pattern-design-pages-intro-mobile.svg')] bg-peach bg-right flex flex-col py-16 px-6 text-center font-jost
-        lg:bg-[url('/src/assets/about/bg-pattern-hero-about-desktop.svg')] lg:rounded-b-none lg:rounded-l-lg lg:w-4/12
+          className="bg-[url('/public/bg/bg-pattern-design-pages-intro-mobile.svg')] bg-peach bg-right flex flex-col py-16 px-6 text-center font-jost
+        lg:bg-[url('/public/about/bg-pattern-hero-about-desktop.svg')] lg:rounded-b-none lg:rounded-l-lg lg:w-4/12
         "
         >
           {/* Title for the 'About Us' section with varying text size for different screen sizes */}
@@ -39,12 +39,12 @@ const AboutPage: React.FC = () => {
         {/* Image depicting world-class talent with responsive design adjustments */}
         <img
           className="md:h-aboutHeader2 h-aboutHeader2Sm lg:w-half lg:rounded-t-none lg:rounded-l-lg"
-          src="/src/assets/tablet/image-world-class-talent.jpg"
+          src="/public/about/image-world-class-talent.jpg"
           alt=""
         />
         {/* Text block describing the skills and values of the team */}
         <div
-          className="bg-[url('/src/assets/bg-pattern-design-pages-intro-mobile.svg')] bg-lightPeachWhite py-16 px-6 text-center font-jost bg-right bg-cover 
+          className="bg-[url('/public/bg/bg-pattern-design-pages-intro-mobile.svg')] bg-lightPeachWhite py-16 px-6 text-center font-jost bg-right bg-cover 
         lg:rounded-r-lg"
         >
           {/* Heading for the 'World-class talent' section */}
@@ -80,11 +80,11 @@ const AboutPage: React.FC = () => {
         {/* Image for 'The Real Deal' section with responsive adjustments */}
         <img
           className="lg:w-half lg:rounded-r-lg lg:h-aboutHeader2Sm"
-          src="/src/assets/about-header-3.png"
+          src="/public/about/about-header-3.png"
           alt=""
         />
         {/* Text block providing insights into the company's authentic approach */}
-        <div className="bg-[url('/src/assets/bg-pattern-design-pages-intro-mobile.svg')] bg-lightPeachWhite py-16 px-6 text-center font-jost bg-right bg-cover lg:rounded-l-lg">
+        <div className="bg-[url('/public/bg/bg-pattern-design-pages-intro-mobile.svg')] bg-lightPeachWhite py-16 px-6 text-center font-jost bg-right bg-cover lg:rounded-l-lg">
           {/* Heading for 'The Real Deal' section */}
           <h2 className="font-medium text-3xl text-peach md:text-4xl lg:text-start lg:px-32">
             The Real Deal

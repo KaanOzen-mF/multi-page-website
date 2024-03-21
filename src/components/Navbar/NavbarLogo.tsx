@@ -18,7 +18,7 @@ const NavbarLogo: React.FC = () => {
         {/* Logo image */}
         <img
           className="pr-2 w-full"
-          src="/src/assets/Oval.png"
+          src="/public/logo/Oval.png"
           alt="Designo Logo"
         />
         {/* Text part of the logo */}

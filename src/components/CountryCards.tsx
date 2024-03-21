@@ -15,10 +15,9 @@ const CountryCards: React.FC<CountryCardsProps> = ({ country, image }) => {
       {/* Image representing the country */}
       <img
         className="mb-8 w-6/12"
-        src={`/src/assets/${image}`}
+        src={`/public/countryCard/${image}`}
         alt={`${country} image`}
       />
-
       {/* Country name displayed in uppercase with tracking and leading for better readability */}
       <p className="uppercase tracking-designCardSpacing leading-relaxed text-xl mb-8 md:text-2xl">
         {country}
