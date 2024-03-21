@@ -24,10 +24,13 @@ Users should be able to:
 
 - View the optimal layout for each page depending on their device's screen size
 - See hover states for all interactive elements throughout the site
+- Navigate seamlessly through different pages using the React Router
+- Interact with dynamic components such as the Hamburger Menu and Contact Form
+- View actual locations on the locations page maps using [Leaflet JS](https://leafletjs.com/)
+
 - Receive an error message when the contact form is submitted if:
   - The `Name`, `Email Address` or `Your Message` fields are empty should show "Can't be empty"
   - The `Email Address` is not formatted correctly should show "Please use a valid email address"
-- **Bonus**: View actual locations on the locations page maps (we recommend [Leaflet JS](https://leafletjs.com/) for this)
 
 ### Screenshot
 
@@ -39,7 +42,6 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
@@ -51,43 +53,19 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+- React - JS library
+- React Router - For routing
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- [React](https://reactjs.org/) - JS library
+- [Styled Components](https://styled-components.com/) - For styles
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-
-```js
-const proudOfThisFunc = () => {
-  console.log("🎉");
-};
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+This project was a great opportunity to practice React and React Router for creating a multi-page website. One of the key takeaways was managing state and props across different components to create a cohesive and interactive user experience. Implementing the Hamburger Menu on mobile views was particularly challenging and rewarding.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+In future projects, I aim to focus more on accessibility and SEO best practices to ensure the websites I build are user-friendly and performant. Additionally, I'm interested in exploring more advanced state management solutions like Redux or the Context API in React to handle more complex application states.
 
 ### Useful resources
 
