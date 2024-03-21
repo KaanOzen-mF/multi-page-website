@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import Button from "../Button";
 
+// The ContactForm component manages the state of form inputs and handles their submission.
 const ContactForm: React.FC = () => {
+  // State to store the values of the form inputs.
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -9,21 +11,26 @@ const ContactForm: React.FC = () => {
     message: "",
   });
 
+  // Function to update the state when a form input changes.
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
+  // Function to handle the form submission.
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    // Implementation for what happens on form submit goes here (e.g., sending data to an API).
   };
 
   return (
+    // Container for the contact form section.
     <div
       className="bg-peach bg-[url('/src/assets/bg-pattern-design-pages-intro-mobile.svg')] bg-center font-jost flex flex-col items-center justify-center px-6 pt-12
-    md:mx-6 mt-8 md:rounded-2xl w-full lg:mx-48 lg:flex-row lg:py-0"
+      md:mx-6 mt-8 md:rounded-2xl w-full lg:mx-48 lg:flex-row lg:py-0"
     >
+      {/* Title and introduction for the contact section */}
       <div>
         <h1 className="font-medium text-2xl text-white leading-9 md:text-5xl text-center md:self-start">
           Contact Us
@@ -36,6 +43,7 @@ const ContactForm: React.FC = () => {
         </p>
       </div>
 
+      {/* The form element with its submit handler */}
       <form
         onSubmit={handleSubmit}
         className="flex flex-col mt-8 mb-10 text-white w-mapWidth"
@@ -76,8 +84,8 @@ const ContactForm: React.FC = () => {
           className="w-full bg-transparent border-b border-white px-3 py-5  placeholder-white focus:border-b-2 focus:border-white focus:outline-none focus:font-medium"
         />
         <Button
-          children={"Submit"}
-          className="bg-white md:w-1/4 md:self-end mt-6 text-black"
+          children={"Submit"} // Text displayed on the button
+          className="bg-white md:w-1/4 md:self-end mt-6 text-black" // Styling applied to the button
         />
       </form>
     </div>
