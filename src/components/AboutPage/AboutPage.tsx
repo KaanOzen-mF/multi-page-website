@@ -80,7 +80,7 @@ const AboutPage: React.FC = () => {
         {/* Image for 'The Real Deal' section with responsive adjustments */}
         <img
           className="lg:w-half lg:rounded-r-lg lg:h-aboutHeader2Sm"
-          src="/public/static/about/about-header-3.png"
+          src="/static/about/about-header-3.png"
           alt=""
         />
         {/* Text block providing insights into the company's authentic approach */}
