@@ -15,7 +15,7 @@ const CountryCards: React.FC<CountryCardsProps> = ({ country, image }) => {
       {/* Image representing the country */}
       <img
         className="mb-8 w-6/12"
-        src={`/public/countryCard/${image}`}
+        src={`/static/countryCard/${image}`}
         alt={`${country} image`}
       />
       {/* Country name displayed in uppercase with tracking and leading for better readability */}
