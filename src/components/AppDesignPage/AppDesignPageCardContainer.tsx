@@ -8,35 +8,35 @@ const AppDesignPageCardContainer: React.FC = () => {
     <div className="lg:grid lg:grid-cols-3 lg:gap-4 lg:mx-40">
       {/* Individual DesignPageCard for the 'airfilter' project. */}
       <DesignPageCard
-        img="/public/static/appDesign/image-airfilter.jpg" // The image URL for the card background.
+        img="/static/appDesign/image-airfilter.jpg" // The image URL for the card background.
         title="airfilter" // The title of the project.
         description="Solving the problem of poor indoor air quality by filtering the air" // Short description of the project.
       />
 
       {/* Individual DesignPageCard for the 'eyecam' project. */}
       <DesignPageCard
-        img="/public/static/appDesign/image-eyecam.jpg"
+        img="/static/appDesign/image-eyecam.jpg"
         title="eyecam"
         description="Product that lets you edit your favorite photos and videos at any time"
       />
 
       {/* Individual DesignPageCard for the 'faceit' project. */}
       <DesignPageCard
-        img="/public/static/appDesign/image-faceit.jpg"
+        img="/static/appDesign/image-faceit.jpg"
         title="faceit"
         description="Get to meet your favorite internet superstar with the faceit app"
       />
 
       {/* Individual DesignPageCard for the 'todo' project. */}
       <DesignPageCard
-        img="/public/static/appDesign/image-todo.jpg"
+        img="/static/appDesign/image-todo.jpg"
         title="todo"
         description="A todo app that features cloud sync with light and dark mode"
       />
 
       {/* Individual DesignPageCard for the 'loopstudios' project. */}
       <DesignPageCard
-        img="/public/static/appDesign/image-loopstudios.jpg"
+        img="/static/appDesign/image-loopstudios.jpg"
         title="loopstudios"
         description="A todo app that features cloud sync with light and dark mode"
       />

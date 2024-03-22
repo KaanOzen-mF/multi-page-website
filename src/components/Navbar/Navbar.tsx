@@ -8,7 +8,7 @@ const Navbar: React.FC = () => {
     // Main container for the navbar, styled to be flexible and responsive
     <nav className="flex flex-row justify-between items-center h-24 bg-orange-50 p-2 md:px-6 lg:px-48 lg:pt-12">
       <NavbarLogo /> {/* Logo section of the navbar */}
-      <HamburgerBtn />{" "}
+      <HamburgerBtn />
       {/* Hamburger button for mobile navigation, toggles the navigation menu */}
     </nav>
   );

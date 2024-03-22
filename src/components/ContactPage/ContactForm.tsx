@@ -27,7 +27,7 @@ const ContactForm: React.FC = () => {
   return (
     // Container for the contact form section.
     <div
-      className="bg-peach bg-[url('/public/static/bg/bg-pattern-design-pages-intro-mobile.svg')] bg-center font-jost flex flex-col items-center justify-center px-6 pt-12
+      className="bg-peach bg-[url('/static/bg/bg-pattern-design-pages-intro-mobile.svg')] bg-center font-jost flex flex-col items-center justify-center px-6 pt-12
       md:mx-6 mt-8 md:rounded-2xl w-full lg:mx-48 lg:flex-row lg:py-0"
     >
       {/* Title and introduction for the contact section */}
