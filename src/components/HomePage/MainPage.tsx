@@ -36,11 +36,7 @@ const MainPage: React.FC = () => {
 
       {/* Container for the main feature image with custom shadow and responsive positioning. */}
       <div className="flex justify-center mt-12 -mb-12 z-0 shadow-custom rounded-full">
-        <img
-          src="/public/static/Group 5.png"
-          alt="Frame"
-          className="max-w-xs"
-        />
+        <img src="/static/Group 5.png" alt="Frame" className="max-w-xs" />
       </div>
     </div>
   );
