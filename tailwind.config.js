@@ -2,7 +2,21 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      inset: {
+        formNotfication: "10%",
+        nameTop: "59%",
+        emailTop: "68%",
+        messeageTop: "92%",
+        nameTopMd: "29%",
+        emailTopMd: "34%",
+        messageTopMd: "47%",
+        formNotficationLg: "12%",
+        nameTopLg: "21%",
+        emailTopLg: "28%",
+        messageTopLg: "45%",
+      },
+    },
     zIndex: {
       1000: "1000",
     },
