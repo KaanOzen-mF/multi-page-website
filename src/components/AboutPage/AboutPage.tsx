@@ -10,7 +10,7 @@ const AboutPage: React.FC = () => {
         {/* Hero image with responsive design adjustments for medium and large screens */}
         <img
           src="/static/about/about-header.png"
-          className="md:rounded-t-x w-half lg:h-aboutHeader2Sm lg:rounded-r-lg"
+          className="md:rounded-t-x w-full lg:h-aboutHeader2Sm lg:rounded-r-lg"
         />
         {/* Overlay text area with background pattern, adjusted for large screens */}
         <div
