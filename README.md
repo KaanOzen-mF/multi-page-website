@@ -41,7 +41,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://multi-page-website-omega.vercel.app/)
+- Live Site URL: [Live site URL here](https://multi-page-website-omega.vercel.app/)
 - Figma Design Files: [Figma File](https://www.figma.com/file/gp8sG6VsQsWPQvBxk0Gu7H/designo-multi-page-website?type=design&node-id=0-1&mode=design&t=hRb31KxJf1WrUaZh-0)
 
 ## My process
